@@ -11,6 +11,7 @@ import java.util.*
 
 /**
  * Created by Dummy on 7/5/16.
+ * A DataKit plugin example that records and displays the timestamp of the player's previous access to the server
  */
 class ExampleListener(private val dataKitBukkit: DataKitBukkit): Listener {
     private val stampedSet: MutableSet<UUID> = HashSet()
@@ -34,6 +35,9 @@ class ExampleListener(private val dataKitBukkit: DataKitBukkit): Listener {
         }
     }
 
+    /**
+     * Make sure to check if the player is loaded before cancelling any events!!!
+     */
     @EventHandler
     fun onPlayerDisconnect(playerQuitEvent: PlayerQuitEvent) {
         val uuid = playerQuitEvent.player.uniqueId
