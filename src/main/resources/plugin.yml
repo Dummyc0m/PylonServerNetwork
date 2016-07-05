@@ -1,0 +1,6 @@
+name: DKExample
+version: 1.0-SNAPSHOT
+main: com.dummyc0m.pylon.datakit.example.ExamplePlugin
+author: Dummyc0m
+prefix: DKExample
+depend: [DataKit]
