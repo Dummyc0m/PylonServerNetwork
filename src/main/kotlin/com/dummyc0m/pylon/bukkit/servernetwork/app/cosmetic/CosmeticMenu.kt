@@ -8,8 +8,8 @@ import com.dummyc0m.pylon.datakit.bukkitcommons.app.MenuView
 import com.dummyc0m.pylon.datakit.bukkitcommons.app.Router
 import com.dummyc0m.pylon.datakit.bukkitcommons.app.view.ContainerElement
 import com.dummyc0m.pylon.datakit.bukkitcommons.app.view.RootElement
-import com.dummyc0m.pylon.datakit.bukkitcommons.app.view.getItem
 import com.dummyc0m.pylon.datakit.bukkitcommons.app.view.menu
+import com.dummyc0m.pylon.datakit.bukkitcommons.util.getItem
 import org.bukkit.ChatColor
 import org.bukkit.Material
 import org.bukkit.entity.HumanEntity

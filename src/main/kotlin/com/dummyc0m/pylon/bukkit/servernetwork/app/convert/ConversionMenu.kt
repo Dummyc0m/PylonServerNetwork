@@ -7,10 +7,10 @@ import com.dummyc0m.pylon.datakit.bukkitcommons.app.Menu
 import com.dummyc0m.pylon.datakit.bukkitcommons.app.MenuView
 import com.dummyc0m.pylon.datakit.bukkitcommons.app.Router
 import com.dummyc0m.pylon.datakit.bukkitcommons.app.view.RootElement
-import com.dummyc0m.pylon.datakit.bukkitcommons.app.view.getItem
 import com.dummyc0m.pylon.datakit.bukkitcommons.app.view.menu
-import com.dummyc0m.pylon.datakit.bukkitcommons.app.view.setItem
 import com.dummyc0m.pylon.datakit.bukkitcommons.econ.EconModule
+import com.dummyc0m.pylon.datakit.bukkitcommons.util.getItem
+import com.dummyc0m.pylon.datakit.bukkitcommons.util.setItem
 import org.bukkit.Material
 import org.bukkit.enchantments.Enchantment
 import org.bukkit.event.inventory.ClickType
