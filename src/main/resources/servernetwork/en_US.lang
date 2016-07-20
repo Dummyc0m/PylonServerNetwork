@@ -1,0 +1,50 @@
+menu.main.title=§rNavigation
+menu.main.conversionButton.title=§rStart Currency Conversion
+menu.main.conversionButton.desc=§rClick to Convert Nether Star, Diamond, Emerald, and Quartz to Copper
+menu.main.cosmeticButton.title=§rModify Cosmetic Features
+menu.main.cosmeticButton.desc=§rClick to Buy and Equip Cosmetic Features
+menu.main.remitButton.title=§rRemittance
+menu.main.remitButton.desc=§rClick to Enter the Recipient's Name and Amount You Would Like to Remit
+
+menu.conversion.title=§rConverting
+menu.conversion.returnButton.title=§rReturn to Clockwork
+menu.conversion.confirmButton.title=§rConfirm
+menu.conversion.confirmButton.desc=§rAmount: %s Copper, %s Silver
+menu.conversion.cancelButton.title=§rCancel
+
+menu.cosmetic.title=§rCosmetics
+menu.cosmetic.returnButton.title=§rReturn to Clockwork
+
+menu.cosmetic.chatColor.blue.title=Chat Color: Blue
+menu.cosmetic.chatColor.purple.title=Chat Color: Purple
+menu.cosmetic.chatColor.pink.title=Chat Color: Pink
+
+menu.cosmetic.chatColor.equip=§eClick to Set Your Chat Color
+menu.cosmetic.chatColor.buy=§2Click to Buy This Chat Color
+menu.cosmetic.chatColor.insufficient=§4You Need At Lease %s Silver
+
+chat.remit.recipient=§r[Server] Enter the recipient of this transaction:
+chat.remit.invalidRecipient=§rThe Recipient Is Not Online
+chat.remit.silver=§r[Server] Enter the silver of the remittance:
+chat.remit.insufficientBalance=§rYou Do Not Have That Much Copper
+
+chat.general.unknownError=§rAn Unknown Error Arose from %s Caused by %s
+chat.cosmetic.joinMessage=§r%s %s joined
+chat.cosmetic.chatFormat=%s%%1$s: §r%s%%2$s
+
+item.cosmetics.name=§rCosmetics: %s
+item.cosmetics.desc=§rThe World Needs Heroes
+
+item.clockwork.name=§rClockWork
+item.clockwork.desc=§rDo anything
+
+item.navigator.name=§rNavigator
+item.navigator.desc=§rGo anywhere
+
+rank.gentleman=§7[Gentleman]
+rank.knight=§5[Knight]§r
+rank.baron=§d[Baron]§r
+rank.viscount=§9[Viscount]§r
+rank.earl=§9[Earl]§r
+rank.marquess=§6[Marquess]§r
+rank.duke=§6[Duke]§r

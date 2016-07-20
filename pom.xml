@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.dummyc0m.pylon.datakit</groupId>
-    <artifactId>example</artifactId>
+    <groupId>com.dummyc0m.pylon.bukkit</groupId>
+    <artifactId>servernetwork</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -40,6 +40,13 @@
             <version>${datakit.version}</version>
             <scope>system</scope>
             <systemPath>${basedir}/extlib/bukkit-commons-1.0-SNAPSHOT.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>LATEST</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/extlib/spigot-api-1.10.2-R0.1-SNAPSHOT-shaded.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.bukkit</groupId>

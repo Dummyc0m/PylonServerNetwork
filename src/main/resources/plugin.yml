@@ -1,6 +1,6 @@
-name: DKExample
+name: ServerNetwork
 version: 1.0-SNAPSHOT
-main: com.dummyc0m.pylon.datakit.example.ExamplePlugin
+main: com.dummyc0m.pylon.bukkit.servernetwork.ServerNetworkPlugin
 author: Dummyc0m
-prefix: DKExample
+prefix: ServerNetwork
 depend: [DataKit, BukkitCommons]
